@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>PIG GAME</title>
+        <link href="Resources/css/grid.css" rel="stylesheet" type="text/css">
+        <link href="Resources/css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="Resources/css/queries.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="col span-1-of-3">
+                <div class='first-player-block active'>
+                    <div class="active-box" id="active-box-1">
+                        <div class="player-name" id="player-1">PLAYER 1</div>
+                        <div class="score" id="score-1">0</div>
+                    </div>
+                    <div class="current-box" id="current-box-1">
+                        <div class="current-label-1">Current</div>
+                        <div class="current-1">0</div>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="center-box">
+                    <div class="top-icon">
+                        <div class="first-icon"><ion-icon name="add-circle-outline" class='icon'></ion-icon></div>
+                        <a href="#" class="btn"><div class="new-game">NEW GAME</div></a>
+                    </div>
+                    <div><img src="Resources/img/dice-1.png" class="dice-image"></div>
+                    <div class="bottom-icons">
+                       <div class="roll"> 
+                            <div class="second-icon"><ion-icon name="repeat-outline" class='icon'></ion-icon></div>
+                            <a href="#" class="btn"><div id="roll-dice">ROLL DICE</div></a>
+                        </div>  
+                        <div class="hold"> 
+                            <div class="third-icon"><ion-icon name="download-outline" class='icon'></ion-icon></div>
+                            <a href="#" class="btn"><div id="hold">HOLD</div></a>
+                        </div>        
+                    </div>    
+                </div>
+                    
+                
+            </div>
+            <div class="col span-1-of-3">
+                <div class='second-player-block' id="second-player-block">
+                    <div class="active-box" id="active-box-2">
+                        <div class="player-name" id="player-2">PLAYER 2</div>
+                        <div class="score" id="score-2">0</div>
+                    </div>
+                    <div class="current-box" id="current-box-2">
+                        <div class="current-label-2">Current</div>
+                        <div class="current-2">0</div>
+                    </div>
+            
+                </div>
+            </div>
+        </header>
+        <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+    </body>
+    <script src="Resources/js/app.js" ></script>
+</html>

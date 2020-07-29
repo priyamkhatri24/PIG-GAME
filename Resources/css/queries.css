@@ -1,0 +1,66 @@
+@media only screen and (max-width: 800px) {
+    .first-player-block, .second-player-block {
+        margin-left: 6%;
+        width: 100%;
+        display: inline-block;
+        margin-top: 100%;
+    }
+    .center-box {
+        width: 100%;
+        display: inline-block;
+        margin-left: 1.9%;
+        margin-top: 100%;
+        height: auto;
+        overflow-y: hidden;
+    }
+    body, html {
+        font-size: 20px;
+    }
+    
+    #second-player-block {
+        margin-left: -3%;
+    }
+    
+    #current-box-1 {
+        margin-left: 20%;
+    }
+
+    #current-box-2 {
+        margin-left: 20%;
+    }
+    .hold, .roll {
+        display: flex;
+        font-size: 55%;
+        margin-left: 23%;
+        margin-bottom: 17%;
+    }
+    .second-icon, .third-icon {
+        margin-right: 9px;
+        color: #168e8e;
+        margin-top: 0px;
+    }
+    .hold {
+        margin-left: 28%;
+    }
+    
+    .dice-image {
+        margin-left: 37%;
+    }
+    .first-icon {
+        margin-top: 0px;
+        margin-right: 6px;
+    }
+    .top-icon {
+        font-size: 55%;
+        margin-left: 23%
+    }
+    .player-name {
+        margin-left: 25%
+    }
+    
+    
+}
+
+
+
+
